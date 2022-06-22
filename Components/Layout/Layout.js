@@ -1,7 +1,8 @@
 
-import NavBar from "../Shared/Navigation/NavBar"
 import {useEffect} from "react"
-import Header from "../Shared/Header/Header";
+import NavBar from "./Shared/Navigations/NavBar"
+import Header from "./Shared/Headers/Header";
+import Footer from "./Shared/Footers/Footer";
 
 
 
@@ -18,6 +19,7 @@ function Layout({children, title}) {
            <Header title={title} />
             <NavBar />
             {children}
+            <Footer />
         </>
     )
 }
