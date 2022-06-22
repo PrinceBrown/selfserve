@@ -1,13 +1,13 @@
-import CxSSLayout from "../Components/UI/Layout/CxSSLayout";
+import Layout from "../Components/Layout/Layout";
 
 
 export default function Home() {
   return (
 
-    <CxSSLayout title="Home Page">
+    <Layout title="Home Page">
 
 
-    </CxSSLayout>
+    </Layout>
 
   )
 }
