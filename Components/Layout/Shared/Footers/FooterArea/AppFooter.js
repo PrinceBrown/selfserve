@@ -1,11 +1,11 @@
 function AppFooter() {
   return (
-    <section className="py-5 footer-section">
+    <footer className="footer ">
       <div className="container">
         <div className="row">
           <div className="col-md-8">
             <div className="d-flex">
-              <p className="me-3">© 2022 Enercare</p>
+              <h6 className="me-3">© 2022 Enercare</h6>
               <a className="me-2 footer-item" href="#">
                 Privacy Policy
               </a>
@@ -28,20 +28,24 @@ function AppFooter() {
       </div>
 
       <style jsx>{`
-        .footer-section {
+        footer {
+          // position: absolute;
+          // top: 100vh;
+          width: 100%;
           background: #f5f2f2;
         }
 
         .footer-item {
           text-decoration: none;
           color: black;
+          font-size: 12px
         }
 
         .accessibility-icon {
           width: 20px;
         }
       `}</style>
-    </section>
+    </footer>
   );
 }
 

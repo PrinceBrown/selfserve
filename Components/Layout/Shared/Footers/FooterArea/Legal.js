@@ -1,11 +1,14 @@
 function Legal() {
   return (
-    <section className="py-3 legal-footer">
+    <section className="mt-auto py-3 legal-footer">
       <div className="container">
         <h5 className="legal-content">Legal</h5>
       </div>
 
       <style jsx>{`
+      section{
+        position: relative
+      }
         .legal-footer {
           background: #e6e4e4;
         }

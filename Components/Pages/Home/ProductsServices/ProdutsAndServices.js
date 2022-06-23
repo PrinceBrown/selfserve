@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 function ProdutsAndServices() {
   return (
     <section className="services-bg">
@@ -5,25 +7,34 @@ function ProdutsAndServices() {
         <h2 className="product-service-title">My Products & Services</h2>
 
         <div className="row pb-3">
+
+
           <div className="col-md-6 col-lg-6 col-xl-3 my-2">
-            <div className="card services-card shadow-sm">
-              <div className="card-body">
-                <div className="d-flex">
-                  <img
-                    className="services-img"
-                    src="./styles/images/icons/furnace-1.svg"
-                    alt=""
-                  />
-                  <div className="d-flex-column ms-2">
-                    <h4>Furnace</h4>
-                    <p>View Details</p>
+            <Link href="/product-detail/furnace">
+              <a>
+                <div className="card  shadow">
+                  <div className="card-body">
+                    <div className="d-flex">
+                      <img
+                        className="services-img"
+                        src="./styles/images/icons/furnace-1.svg"
+                        alt=""
+                      />
+                      <div className="d-flex-column ms-2">
+                        <h4>Furnace</h4>
+                        <p>View Details</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </div>
+              </a>
+            </Link>
           </div>
+
+
+
           <div className="col-md-6 col-lg-6 col-xl-3 my-2">
-            <div className="card services-card shadow-sm">
+            <div className="card  shadow">
               <div className="card-body">
                 <div className="d-flex">
                   <img
@@ -40,7 +51,7 @@ function ProdutsAndServices() {
             </div>
           </div>
           <div className="col-md-6 col-lg-6 col-xl-3 my-2">
-            <div className="card services-card shadow-sm">
+            <div className="card  shadow">
               <div className="card-body">
                 <div className="d-flex">
                   <img
@@ -57,7 +68,7 @@ function ProdutsAndServices() {
             </div>
           </div>
           <div className="col-md-6 col-lg-6 col-xl-3 my-2">
-            <div className="card services-card shadow-sm">
+            <div className="card  shadow">
               <div className="card-body">
                 <div className="d-flex">
                   <img
@@ -79,9 +90,7 @@ function ProdutsAndServices() {
 
 
       <style jsx>{`
-        .services-card {
-          min-width: 18rem;
-        }
+     
         .services-bg {
           /* background-color: #F5F2F2; */
           background-color: white;

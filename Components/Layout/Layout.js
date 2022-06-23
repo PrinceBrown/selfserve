@@ -9,9 +9,17 @@ import Footer from "./Shared/Footers/Footer";
 
 function Layout({children, title}) {
 
+
     useEffect(() => {
-        import("../../node_modules/bootstrap/dist/js/bootstrap.js");
+        import("/node_modules/@popperjs/core/dist/umd/popper.min.js");
+
     }, []);
+
+    useEffect(() => {
+        import("/node_modules/bootstrap/dist/js/bootstrap.js");
+
+    }, []);
+
 
     
     return (
