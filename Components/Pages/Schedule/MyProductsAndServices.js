@@ -1,5 +1,5 @@
 function MyProductsAndServices() {
-  return (
+  return ( 
     <section className="pb-5 bg-faint">
       <div className="container">
         <div className="pt-3">

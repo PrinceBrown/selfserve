@@ -41,3 +41,7 @@ a {
 .rounded-button {
   border-radius: 30px;
 }
+
+.square-button{
+  border-radius: 0px;
+}
