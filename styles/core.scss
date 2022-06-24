@@ -1,9 +1,11 @@
 $primary: #DA1B27;
 $faint: #F5F2F2;
+$lightBlue: #D1EBFB;
 
 $theme-colors: (
     "primary": $primary,
     "faint": $faint,
+    "lightBlue": $lightBlue,
 );
 
 @import "../node_modules/bootstrap/scss/bootstrap";
