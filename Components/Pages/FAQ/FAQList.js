@@ -13,7 +13,7 @@ function FAQList({title}) {
                   <h5 className=" mb-3 pb-2 ">
                       <AiFillPlusCircle className="text-primary" /> {title}
                   </h5>
-                  <div className=" d-none pb-5">
+                  <div className="  pb-5">
                       <div className="ms-4">
                           <p >There are several reasons why this might happen. 
                             The equipment in your home may not have coverage or be from Enercare, or your protection plan may be ready for renewal. 

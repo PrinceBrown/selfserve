@@ -12,7 +12,7 @@ function MyProductsAndServices() {
 
           <div className="row">
             <div className="col-md-6 col-lg-6 col-xl-3 my-2">
-              <div className="card  shadow-sm">
+              <div className="card  shadow-sm" data-bs-toggle="modal" data-bs-target="#covid19Modal">
                 <div className="card-body">
                   <div className="d-flex align-items-center">
                     <img

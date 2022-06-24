@@ -40,7 +40,7 @@ function Product() {
 
                                 <div className="mt-3">
                                     <Link href="/">
-                                        <a className="btn btn-primary btn-lg rounded-button shadow-sm">
+                                        <a data-bs-toggle="modal" data-bs-target="#covid19Modal" className="btn btn-primary btn-lg rounded-button shadow-sm">
                                             Schedule an Appointment
                                         </a>
                                     </Link>

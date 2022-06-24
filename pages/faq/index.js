@@ -6,7 +6,11 @@ import FAQList from "../../Components/Pages/FAQ/FAQList"
 function enercareFAQ() {
 
 
-    let titles = ['Why is my product not listed or incorrect?', 'Why is my plan not listed or incorrect?', 'My contact number is incorrect?', 'I can&apos;t find a suitable date and time', 'Technical issues with the app?']
+    let titles = ['Why is my product not listed or incorrect?', 
+    'Why is my plan not listed or incorrect?',
+     'My contact number is incorrect?', 
+     'I can&apos;t find a suitable date and time', 
+     'Technical issues with the app?']
 
 
 
@@ -27,7 +31,6 @@ function enercareFAQ() {
 
 
         {titles.map(title => (
-
             <FAQList title={title} />
         ))}
 

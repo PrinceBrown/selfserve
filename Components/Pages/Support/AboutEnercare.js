@@ -12,7 +12,7 @@ function AboutEnercare() {
                     <h5 className=" mb-3 pb-2 ">
                         <AiFillPlusCircle className="text-primary" /> About enercare
                     </h5>
-                    <div className="d-none pb-5">
+                    <div className=" pb-5">
                         <div className="ms-4">
                             <p >Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                                 Pariatur aut nemo impedit, iste illo fugiat ex maiores voluptatem.
