@@ -52,7 +52,7 @@ function Hero() {
         .web-hero {
           position: relative;
           min-width: 100vw;
-          min-height: 100vh;
+          min-height: 600px;
         }
 
         .web-hero::before {
@@ -72,6 +72,7 @@ function Hero() {
         .hero-content {
           position: relative;
           top: 5rem;
+            min-height: 600px;
         }
 
         .bg-dark-50 {
@@ -128,23 +129,30 @@ function Hero() {
 
         // -----
 
+
+ 
+
         //For Tablets
         @media screen and (min-width: 600px) {
           .web-hero {
             min-height: 70vh;
           }
           .hero-content {
-            position: relative;
             top: 15rem;
           }
         }
 
-        //For Tablets, laptops & Small Screens  - show 100% hero height
+        //For Tablets, laptops & Small Screens 
+        // @ - show 100% hero height if screen is smaller than 1024 px
         @media screen and (max-height: 1024px) {
           .web-hero {
             min-height: 100vh;
           }
+          .hero-content {
+            top: 15rem;
+          }
         }
+
 
  
        
