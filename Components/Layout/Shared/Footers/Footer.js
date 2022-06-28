@@ -14,7 +14,7 @@ function Footer() {
 
 
   return (
-    <div className={footerPosition}>
+    <div className={''}>
       <Legal />
       <AppFooter />
     </div>
