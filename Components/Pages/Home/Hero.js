@@ -122,8 +122,8 @@ function Hero() {
         /* Extra small devices (phones, 600px and down) */
         @media only screen and (max-width: 600px) {
           .web-hero {
-            // min-height: 90vh;
-            display: none;
+            min-height: 90vh;
+            // display: none;
           }
         }
 

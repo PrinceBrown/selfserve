@@ -1,4 +1,15 @@
+
+import {useRouter} from "next/router"
 function RecommendedDates() {
+
+    const router = useRouter()
+
+
+    const goToReview = () => {
+        router.push('/schedule-appt/confirm/')
+    }
+
+
     return (
         <section className="pb-5 vh-100">
             <div className="container">
@@ -14,8 +25,8 @@ function RecommendedDates() {
 
                 <div className="row">
 
-                    <div className="col-md-6 col-lg-6 col-xl-3 my-2 ">
-                        <div className="card bg-faint shadow-sm" >
+                    <div onClick={goToReview} className="col-md-6 col-lg-6 col-xl-3 my-2 ">
+                        <div  className="card bg-faint shadow-sm" >
                             <div className="card-body">
                                 <div className="d-flex align-items-center">
                                     <img className="services-img" src="../styles/images/icons/furnace-1.svg" alt="" />

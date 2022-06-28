@@ -1,6 +1,6 @@
 
-import Layout from '../../Components/Layout/Layout'
-import RecommendedDates from '../../Components/Pages/Schedule/SelectAppointment/RecommendedDates'
+import Layout from '../../../Components/Layout/Layout'
+import RecommendedDates from '../../../Components/Pages/Schedule/SelectAppointment/RecommendedDates'
 
 function RecommendedAppointmentDates() {
     return (

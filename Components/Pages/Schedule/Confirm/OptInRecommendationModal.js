@@ -1,9 +1,20 @@
 
 
 
-import React from 'react'
+import { useRouter } from 'next/router'
 
 function OptInRecommendationModal() {
+
+
+    const router = useRouter()
+
+
+    const goToReview = () => {
+        router.push('/schedule-appt/thank-you/fake1d123/')
+    }
+
+
+
     return (
 
 
@@ -21,9 +32,9 @@ function OptInRecommendationModal() {
                         <p>Our technician may recommend products or services based on what they find during their visit. Are you OK with them sharing additional options with you when in your home?</p>
                     </div>
                     <div className="modal-footer">
-                        <div classNameName="text-center">
-                            <button type="button" className="btn btn-lg btn-secondary rounded-button text-white mx-2" data-bs-dismiss="modal">NO</button>
-                            <button type="button" className="btn btn-lg btn-primary rounded-button mx-2" data-bs-dismiss="modal">YES</button>
+                        <div className="text-center">
+                            <button onClick={goToReview} type="button" className="btn btn-lg btn-secondary rounded-button text-white mx-2" data-bs-dismiss="modal">NO</button>
+                            <button onClick={goToReview} type="button" className="btn btn-lg btn-primary rounded-button mx-2" data-bs-dismiss="modal">YES</button>
                         </div>
                     </div>
                 </div>

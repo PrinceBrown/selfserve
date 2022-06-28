@@ -1,8 +1,19 @@
 
+import { useRouter } from "next/router"
 import { AiOutlineWarning } from "react-icons/ai"
 
-
 function Covid19Modal() {
+
+
+  const router = useRouter()
+
+  const goToProblem = () => {
+    router.push('/schedule-appt/product-problem')
+  }
+
+
+
+  
   return (
 
     <div className="modal fade" id="covid19Modal" tabIndex="-1" aria-labelledby="covid19ModalLabel" aria-hidden="true">
@@ -33,18 +44,18 @@ function Covid19Modal() {
                   <div className="d-flex ">
 
                     <div className="ms-3">
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
-                        <label class="form-check-label" for="flexCheckDefault">
+                      <div className="form-check">
+                        <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                        <label className="form-check-label" for="flexCheckDefault">
                           YES
                         </label>
                       </div>
                     </div>
 
                     <div className="ms-3">
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
-                        <label class="form-check-label" for="flexCheckDefault">
+                      <div className="form-check">
+                        <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                        <label className="form-check-label" for="flexCheckDefault">
                           NO
                         </label>
                       </div>
@@ -69,18 +80,18 @@ function Covid19Modal() {
                   <div className="d-flex">
 
                     <div className="ms-3">
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
-                        <label class="form-check-label" for="flexCheckDefault">
+                      <div className="form-check">
+                        <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                        <label className="form-check-label" for="flexCheckDefault">
                           YES
                         </label>
                       </div>
                     </div>
 
                     <div className="ms-3">
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
-                        <label class="form-check-label" for="flexCheckDefault">
+                      <div className="form-check">
+                        <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                        <label className="form-check-label" for="flexCheckDefault">
                           NO
                         </label>
                       </div>
@@ -104,18 +115,18 @@ function Covid19Modal() {
                   <div className="d-flex">
 
                     <div className="ms-3">
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
-                        <label class="form-check-label" for="flexCheckDefault">
+                      <div className="form-check">
+                        <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                        <label className="form-check-label" for="flexCheckDefault">
                           YES
                         </label>
                       </div>
                     </div>
 
                     <div className="ms-3">
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
-                        <label class="form-check-label" for="flexCheckDefault">
+                      <div className="form-check">
+                        <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                        <label className="form-check-label" for="flexCheckDefault">
                           NO
                         </label>
                       </div>
@@ -145,7 +156,7 @@ function Covid19Modal() {
             <h5>1-877-433-2466</h5>
 
             <div className="mb-3">
-              <button type="button" className="btn btn-lg btn-primary rounded-button shadow" data-bs-dismiss="modal">
+              <button onClick={goToProblem} type="button" className="btn btn-lg btn-primary rounded-button shadow" data-bs-dismiss="modal">
                 CONTINUE TO SCHEDULE APPOINTMENT
               </button>
             </div>
