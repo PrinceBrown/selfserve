@@ -72,7 +72,7 @@ function Hero() {
 
 
         .hero-content{
-          position: absolute;
+          position: relative;
           min-height: 70vh;
           top: 15rem
         }
