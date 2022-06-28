@@ -6,12 +6,12 @@ function MyProductsAndServices() {
           <h1 className=" mb-3 pb-2 section-title border-below">
             Select a Product
           </h1>
-          <h3 className="select-production-section-sub-title">
+          <h3 className="">
             My Products and Services
           </h3>
 
           <div className="row">
-            <div className="col-md-6 col-lg-6 col-xl-3 my-2">
+            <div className="col-md-6 col-lg-6 col-xl-3 my-2 mx-auto">
               <div className="card  shadow-sm" data-bs-toggle="modal" data-bs-target="#covid19Modal">
                 <div className="card-body">
                   <div className="d-flex align-items-center">
@@ -28,7 +28,7 @@ function MyProductsAndServices() {
               </div>
             </div>
 
-            <div className="col-md-6 col-lg-6 col-xl-3 my-2">
+            <div className="col-md-6 col-lg-6 col-xl-3 my-2 mx-auto">
               <div className="card  shadow-sm">
                 <div className="card-body">
                   <div className="d-flex align-items-center">
@@ -45,7 +45,7 @@ function MyProductsAndServices() {
               </div>
             </div>
 
-            <div className="col-md-6 col-lg-6 col-xl-3 my-2">
+            <div className="col-md-6 col-lg-6 col-xl-3 my-2 mx-auto">
               <div className="card  shadow-sm">
                 <div className="card-body">
                   <div className="d-flex align-items-center">
@@ -62,7 +62,7 @@ function MyProductsAndServices() {
               </div>
             </div>
 
-            <div className="col-md-6 col-lg-6 col-xl-3 my-2">
+            <div className="col-md-6 col-lg-6 col-xl-3 my-2 mx-auto">
               <div className="card  shadow-sm">
                 <div className="card-body">
                   <div className="d-flex align-items-center">
@@ -81,23 +81,7 @@ function MyProductsAndServices() {
           </div>
         </div>
       </div>
-
-      <style jsx>{`
-    
-
-     
-
-        .product-service-title {
-          font-weight: 700;
-          font-size: 30px;
-          line-height: 38px;
-        }
-
-        .services-img {
-          max-width: 50px;
-          max-height: 50px;
-        }
-      `}</style>
+ 
     </section>
   );
 }

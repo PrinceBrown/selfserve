@@ -9,7 +9,7 @@ function ProdutsAndServices() {
         <div className="row pb-3">
 
 
-          <div className="col-md-6 col-lg-6 col-xl-3 my-2">
+          <div className="col-md-6 col-lg-6 col-xl-3 my-2 mx-auto">
             <Link href="/product-detail/furnace">
               <a>
                 <div className="card  shadow">
@@ -33,7 +33,7 @@ function ProdutsAndServices() {
 
 
 
-          <div className="col-md-6 col-lg-6 col-xl-3 my-2">
+          <div className="col-md-6 col-lg-6 col-xl-3 my-2 mx-auto">
             <div className="card  shadow">
               <div className="card-body">
                 <div className="d-flex">
@@ -50,7 +50,7 @@ function ProdutsAndServices() {
               </div>
             </div>
           </div>
-          <div className="col-md-6 col-lg-6 col-xl-3 my-2">
+          <div className="col-md-6 col-lg-6 col-xl-3 my-2 mx-auto">
             <div className="card  shadow">
               <div className="card-body">
                 <div className="d-flex">
@@ -67,7 +67,7 @@ function ProdutsAndServices() {
               </div>
             </div>
           </div>
-          <div className="col-md-6 col-lg-6 col-xl-3 my-2">
+          <div className="col-md-6 col-lg-6 col-xl-3 my-2 mx-auto">
             <div className="card  shadow">
               <div className="card-body">
                 <div className="d-flex">

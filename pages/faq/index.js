@@ -13,8 +13,6 @@ function enercareFAQ() {
      'Technical issues with the app?']
 
 
-
-
     return (
         <Layout title={`FAQ`}>
 
