@@ -52,7 +52,7 @@ function Hero() {
         .web-hero {
           position: relative;
           min-width: 100vw;
-          min-height: 60vh;
+          min-height: 100vh;
         }
 
         .web-hero::before {
