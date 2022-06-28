@@ -11,7 +11,7 @@ function Hero() {
               <div className="row">
                 <div className="col-md-7 col-lg-6 me-auto my-auto">
                   <div className="text-white bg-dark-50 rounded shadow">
-                    <div className="p-2">
+                    <div className="p-2 item">
                       {/* Line Above */}
                       {/* <div className="mb-4 hero-title-line"></div>
 
@@ -53,7 +53,6 @@ function Hero() {
           position: relative;
           min-width: 100vw;
           min-height: 60vh;
-          overflow: hidden;
         }
 
         .web-hero::before {
@@ -70,60 +69,46 @@ function Hero() {
           filter: brightness(100%);
         }
 
-
-        .hero-content{
+        .hero-content {
           position: relative;
-          min-height: 70vh;
-          top: 15rem
+          // min-height: 70vh;
+          top: 5rem;
         }
-  
 
-
-
-        .bg-dark-50{
+        .bg-dark-50 {
           background: #000000ab;
         }
 
-
-
-        .hero-title-line{
+        .hero-title-line {
           border: 3px solid white;
           width: 30%;
         }
 
-        .hero-sub-title{
-           font-size: "24px"
+        .hero-sub-title {
+          font-size: "24px";
         }
-            .hero-card-title {
-                font-style: normal;
-                font-weight: 800;
-                font-size: 48px;
-                line-height: 64px;
-                font-size: "48px"
-            }
-
-            .hero-card-msg {
-                font-size: normal;
-                line-height: 22px;
-              }
-
-
-
-
-
-
-            /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-
-    .web-hero {
-        // min-height: 90vh;
-        display: none
-
-    }
-
-
-        
+        .hero-card-title {
+          font-style: normal;
+          font-weight: 800;
+          font-size: 48px;
+          line-height: 64px;
+          font-size: "48px";
         }
+
+        .hero-card-msg {
+          font-size: normal;
+          line-height: 22px;
+        }
+
+        /* Extra small devices (phones, 600px and down) */
+        @media only screen and (max-width: 600px) {
+          .web-hero {
+            // min-height: 90vh;
+            display: none;
+          }
+        }
+
+   
       `}</style>
     </>
   );
