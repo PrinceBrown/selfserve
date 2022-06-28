@@ -71,7 +71,6 @@ function Hero() {
 
         .hero-content {
           position: relative;
-          // min-height: 70vh;
           top: 5rem;
         }
 
@@ -108,7 +107,37 @@ function Hero() {
           }
         }
 
-   
+        //For Tablets
+        @media screen and (min-width: 600px) {
+          .web-hero {
+            min-height: 70vh;
+          }
+          .hero-content {
+            position: relative;
+            top: 7rem;
+          }
+        }
+
+
+        //For Tablets
+        @media screen and (max-height: 640px) {
+          .web-hero {
+           display:none;
+          }
+         
+        }
+
+        // Very large screens
+        @media screen and (min-width: 1400px) {
+          .web-hero {
+            min-height: 60vh;
+          }
+
+          .hero-content {
+            position: relative;
+            top: 15rem;
+          }
+        }
       `}</style>
     </>
   );
