@@ -9,8 +9,8 @@ function Hero() {
           <div className=" hero-content   ">
             <div className="container">
               <div className="row">
-                <div className="col-md-7 col-lg-6 ">
-                  <div className="text-white bg-dark-50 rounded shadow-lg">
+                <div className="col-md-7 col-lg-6 me-auto my-auto">
+                  <div className="text-white bg-dark-50 rounded shadow">
                     <div className="p-2">
                       {/* Line Above */}
                       {/* <div className="mb-4 hero-title-line"></div>
@@ -32,7 +32,7 @@ function Hero() {
                         heating.
                       </p>
 
-                      <Link href={"/schedule/select-a-product"}>
+                      <Link href={"/schedule-appt/select-a-product"}>
                         <a className="btn btn-lg  btn-primary rounded-button shadow">
                           <b>
                             <AiOutlineSchedule /> Schedule Appointment{" "}
@@ -52,7 +52,8 @@ function Hero() {
         .web-hero {
           position: relative;
           min-width: 100vw;
-          min-height: 55vh;
+          min-height: 60vh;
+          overflow: hidden;
         }
 
         .web-hero::before {
@@ -72,8 +73,12 @@ function Hero() {
 
         .hero-content{
           position: absolute;
-          top: 25%
+          min-height: 70vh;
+          top: 15rem
         }
+  
+
+
 
         .bg-dark-50{
           background: #000000ab;
