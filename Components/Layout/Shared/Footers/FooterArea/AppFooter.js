@@ -7,6 +7,9 @@ function AppFooter() {
             <div className="d-flex">
               <h6 className="me-3">© 2022 Enercare</h6>
               <a className="me-2 footer-item" href="#">
+                Legal
+              </a>
+              <a className="me-2 footer-item" href="#">
                 Privacy Policy
               </a>
               <a className="me-2 footer-item" href="#">
@@ -29,10 +32,11 @@ function AppFooter() {
 
       <style jsx>{`
         footer {
-          // position: absolute;
-          // top: 100vh;
+          position: absolute;
+          bottom:0;
           width: 100%;
           background: #f5f2f2;
+          padding: 10px;
         }
 
         .footer-item {

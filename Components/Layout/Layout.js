@@ -22,7 +22,9 @@ function Layout({children, title}) {
         <>
            <Header title={title} />
             <NavBar />
-            {children}
+         
+                {children}
+           
             <Footer />
         </>
     )

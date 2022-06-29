@@ -11,7 +11,7 @@ function Hero() {
               <div className="row">
                 <div className="col-md-7 col-lg-6 me-auto my-auto">
                   <div className="text-white bg-dark-50 rounded shadow">
-                    <div className="p-2 item">
+                    <div className="p-2">
                       {/* Line Above */}
                       {/* <div className="mb-4 hero-title-line"></div>
 

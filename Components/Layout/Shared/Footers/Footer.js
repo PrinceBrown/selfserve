@@ -8,14 +8,10 @@ function Footer() {
 
   const router = useRouter()
 
- 
- const footerPosition  = router.pathname == '/' ? '' : 'fixed-bottom'
-
-
 
   return (
-    <div className={''}>
-      <Legal />
+    <div >
+      {/* <Legal /> */}
       <AppFooter />
     </div>
   )
