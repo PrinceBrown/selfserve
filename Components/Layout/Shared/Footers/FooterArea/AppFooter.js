@@ -32,7 +32,7 @@ function AppFooter() {
 
       <style jsx>{`
         footer {
-          position: absolute;
+          position: relative;
           bottom:0;
           width: 100%;
           background: #f5f2f2;
