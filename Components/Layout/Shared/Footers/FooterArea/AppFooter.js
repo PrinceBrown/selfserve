@@ -32,7 +32,7 @@ function AppFooter() {
 
       <style jsx>{`
         footer {
-          position: relative;
+          position: absolute;
           bottom:0;
           width: 100%;
           background: #f5f2f2;
@@ -48,6 +48,13 @@ function AppFooter() {
         .accessibility-icon {
           width: 20px;
         }
+
+          @media only screen and (max-width: 600px) {
+          footer{
+            display: none;
+          }
+        }
+
       `}</style>
     </footer>
   );
