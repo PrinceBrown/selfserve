@@ -15,6 +15,7 @@
     "react-calendar": "^3.7.0",
     "react-dom": "18.1.0",
     "react-icons": "^4.4.0",
+    "react-step-progress-bar": "^1.0.3",
     "sass": "^1.52.3"
   },
   "devDependencies": {

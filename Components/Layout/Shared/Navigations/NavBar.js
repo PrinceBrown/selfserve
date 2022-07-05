@@ -6,7 +6,7 @@ import React from 'react'
 function NavBar() {
     return (
 
-        <nav className="navbar navbar-expand-lg navbar-light bg-white navbg-1">
+        <nav className="navbar navbar-expand-lg navbar-light bg-white navbg-1 shadow">
             <div className="container">
 
 

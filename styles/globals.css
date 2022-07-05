@@ -24,6 +24,10 @@ a {
   text-decoration: none;
 }
 
+.accordion-button:not(.collapsed) {
+  background-color: #ffffff
+}
+
 
 .border-below {
   border-bottom: 1px solid #B3B1B1;
