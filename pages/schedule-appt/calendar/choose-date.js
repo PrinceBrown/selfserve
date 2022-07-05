@@ -1,13 +1,13 @@
 
 import Layout from '../../../Components/Layout/Layout'
- 
+import ApptCalender from '../../../Components/Pages/Schedule/SelectAppointment/ApptCalender'
 
 function ChooseCalendarDate() {
     return (
         <Layout title={"Select Date & Time"}>
 
 
-            <p>Calendar & Time goes here</p>
+            <ApptCalender />
   
         </Layout>
     )

@@ -1,5 +1,6 @@
 
-import {useRouter} from "next/router"
+import Link from "next/link";
+import { useRouter } from "next/router"
 function RecommendedDates() {
 
     const router = useRouter()
@@ -26,7 +27,7 @@ function RecommendedDates() {
                 <div className="row">
 
                     <div onClick={goToReview} className="col-md-6 col-lg-6 col-xl-3 my-2 ">
-                        <div  className="card bg-faint shadow-sm" >
+                        <div className="card bg-faint shadow-sm" >
                             <div className="card-body">
                                 <div className="d-flex align-items-center">
                                     <img className="services-img" src="../styles/images/icons/furnace-1.svg" alt="" />
@@ -83,9 +84,11 @@ function RecommendedDates() {
                 <div className="row">
                     <div className="col-md-12 mt-3">
 
-                        <button className="button btn btn-primary btn-lg rounded-button">
-                            See Other Dates
-                        </button>
+                        <Link href='/schedule-appt/calendar/choose-date'>
+                            <a className="button btn btn-primary btn-lg rounded-button">
+                                See Other Dates
+                            </a>
+                        </Link>
                     </div>
                 </div>
 
