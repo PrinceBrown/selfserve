@@ -66,11 +66,14 @@ function ApptCalender() {
 
                 <div className="row">
                     <div className="col-md-6 mb-3">
-                        <h4 className="border rounded-3 bg-blue p-3 text-white">
-                            <b>Friday, June 26</b>
+                        <h4 className="border rounded-3 bg-blue p-3 text-white text-center">
+                            <b>JULY 2022</b>
                         </h4>
                         {isLoaded &&
                             <Calendar
+                            // formatDay={ }
+                            showNavigation={false}
+                                calendarType ="US"
                                 className='w-100 shadow-sm rounded'
                                 activeStartDate={dateValue}
                                 onChange={setDateValue}
@@ -79,7 +82,7 @@ function ApptCalender() {
                     </div>
                     <div className="col-md-6 mb-3">
                         <h4 className="border rounded-3 bg-blue p-3 text-white">
-                            <b>Friday, June 26</b>
+                            <b>Friday, July 26</b>
                         </h4>
                         <h4 className="border rounded-3  p-3 mb-3">
                             <b>1:00pm to 5:00pm</b>

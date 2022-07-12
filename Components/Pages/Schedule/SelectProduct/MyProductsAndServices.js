@@ -16,7 +16,7 @@ function MyProductsAndServices() {
                 <div className="card-body">
                   <div className="d-flex align-items-center">
                     <img
-                      className="services-img"
+                      className="card-image-width-50"
                       src="../styles/images/icons/furnace-1.svg"
                       alt=""
                     />
@@ -33,7 +33,7 @@ function MyProductsAndServices() {
                 <div className="card-body">
                   <div className="d-flex align-items-center">
                     <img
-                      className="services-img"
+                      className="card-image-width-50"
                       src="../styles/images/icons/air-condition-1.svg"
                       alt=""
                     />
@@ -50,7 +50,7 @@ function MyProductsAndServices() {
                 <div className="card-body">
                   <div className="d-flex align-items-center">
                     <img
-                      className="services-img"
+                      className="card-image-width-50"
                       src="https://cdn-icons-png.flaticon.com/512/3166/3166647.png"
                       alt=""
                     />
@@ -67,7 +67,7 @@ function MyProductsAndServices() {
                 <div className="card-body">
                   <div className="d-flex align-items-center">
                     <img
-                      className="services-img"
+                      className="card-image-width-50"
                       src="https://www.sanjuanco.com/ImageRepository/Document?documentID=18674"
                       alt=""
                     />

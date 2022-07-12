@@ -10,7 +10,7 @@ function OtherProductsAndServices() {
               <div className="card-body">
                 <div className="d-flex align-items-center">
                   <img
-                    className="services-img"
+                    className="card-image-width-50"
                     src="../styles/images/icons/plumbing-1.svg"
                     alt=""
                   />
@@ -27,7 +27,7 @@ function OtherProductsAndServices() {
               <div className="card-body">
                 <div className="d-flex align-items-center">
                   <img
-                    className="services-img"
+                    className="card-image-width-50"
                     src="../styles/images/icons/electrical-1.svg"
                     alt=""
                   />

@@ -29,15 +29,31 @@ $primary: #DA1B27;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+
+
+
+
 .react-calendar button {
+  display: inline-block;
+  padding: 5%;
+ 
   margin: 0;
   border: 0;
   outline: none;
-  border-radius: 100%;
+  border-radius: 50%;
 }
+
+
+
+
+
+
+
 .react-calendar button:enabled:hover {
   cursor: pointer;
 }
+
+// Hide Calendar Menu
 .react-calendar__navigation {
   display: flex;
   height: 44px;
@@ -82,8 +98,8 @@ $primary: #DA1B27;
   padding: 2em 0.5em;
 }
 .react-calendar__tile {
+
   max-width: 100%;
-  padding: 5%;
   background: none;
   text-align: center;
   line-height: 16px;
@@ -120,3 +136,8 @@ $primary: #DA1B27;
 .react-calendar--selectRange .react-calendar__tile--hover {
   background-color: #e6e6e6;
 }
+
+// .react-calendar__tile.react-calendar__month-view__days__day{
+//   flex: 0 0 14.2857% !important; 
+//   overflow: hidden;
+// }

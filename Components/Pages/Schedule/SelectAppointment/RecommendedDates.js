@@ -30,7 +30,7 @@ function RecommendedDates() {
                         <div className="card bg-faint shadow-sm" >
                             <div className="card-body">
                                 <div className="d-flex align-items-center">
-                                    <img className="services-img" src="../styles/images/icons/furnace-1.svg" alt="" />
+                                    <img className="card-image-width-50" src="../styles/images/icons/furnace-1.svg" alt="" />
                                     <div className=" ms-3">
                                         <p>Today</p>
                                         <h4 className="shorthand-date text-primary">June 17</h4>
@@ -46,7 +46,7 @@ function RecommendedDates() {
                         <div className="card bg-faint shadow-sm" >
                             <div className="card-body">
                                 <div className="d-flex align-items-center">
-                                    <img className="services-img" src="../styles/images/icons/furnace-1.svg" alt="" />
+                                    <img className="card-image-width-50" src="../styles/images/icons/furnace-1.svg" alt="" />
                                     <div className=" ms-3">
                                         <p>Today</p>
                                         <h4 className="shorthand-date text-primary">June 17</h4>
@@ -62,7 +62,7 @@ function RecommendedDates() {
                         <div className="card bg-faint shadow-sm" >
                             <div className="card-body">
                                 <div className="d-flex align-items-center">
-                                    <img className="services-img" src="../styles/images/icons/furnace-1.svg" alt="" />
+                                    <img className="card-image-width-50" src="../styles/images/icons/furnace-1.svg" alt="" />
                                     <div className=" ms-3">
                                         <p>Today</p>
                                         <h4 className="shorthand-date text-primary">June 17</h4>

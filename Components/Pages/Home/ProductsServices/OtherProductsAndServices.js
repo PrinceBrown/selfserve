@@ -1,6 +1,6 @@
 function OtherProductsAndServices() {
   return (
-    <section className="other-services pb-5">
+    <section className="other-services pb-5 section-bg-faint">
       <div className="container ">
         <h2>Other Products and Services</h2>
         <p>
@@ -11,9 +11,8 @@ function OtherProductsAndServices() {
 
       <style jsx>{`
         .other-services {
-          /* background-color: #F5F2F2; */
-          background-color: white;
-          margin-bottom: 100px !important;
+          padding: 20px;
+          // margin-bottom: 100px !important;
         }
 
         .other-services-title {

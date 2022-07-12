@@ -46,11 +46,24 @@ a {
   border-radius: 30px;
 }
 
-.square-button{
+.square-button {
   border-radius: 0px;
 }
 
-.services-img {
+
+.card-image-width-50 {
   max-width: 50px;
   max-height: 50px;
+}
+
+.section-bg-faint {
+  background-color: #F5F2F2;
+
+}
+
+.truncate {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }

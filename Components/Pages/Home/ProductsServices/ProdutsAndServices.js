@@ -2,7 +2,7 @@ import Link from "next/link";
 
 function ProdutsAndServices() {
   return (
-    <section className="services-bg">
+    <section className="section-bg-faint">
       <div className="container py-5">
         <h2 className="product-service-title">My Products & Services</h2>
 
@@ -16,12 +16,12 @@ function ProdutsAndServices() {
                   <div className="card-body">
                     <div className="d-flex">
                       <img
-                        className="services-img"
-                        src="./styles/images/icons/furnace-1.svg"
+                        className="card-image-width-50"
+                        src="https://cdn-icons-png.flaticon.com/512/7543/7543514.png"
                         alt=""
                       />
-                      <div className="d-flex-column ms-2">
-                        <h4>Furnace</h4>
+                      <div className="d-flex-column truncate ms-2">
+                        <h4 className="truncate">Furnace</h4>
                         <p>View Details</p>
                       </div>
                     </div>
@@ -38,12 +38,12 @@ function ProdutsAndServices() {
               <div className="card-body">
                 <div className="d-flex">
                   <img
-                    className="services-img"
-                    src="./styles/images/icons/air-condition-1.svg"
+                    className="card-image-width-50"
+                    src="https://cdn-icons.flaticon.com/png/512/3653/premium/3653384.png?token=exp=1657646013~hmac=a6f5851e94209491a3ff2d5a498e61d7"
                     alt=""
                   />
-                  <div className="d-flex-column ms-2">
-                    <h4>Air Condition</h4>
+                  <div className="d-flex-column truncate ms-2">
+                    <h4 className="truncate">Air Conditioning</h4>
                     <p> View Details</p>
                   </div>
                 </div>
@@ -55,12 +55,12 @@ function ProdutsAndServices() {
               <div className="card-body">
                 <div className="d-flex">
                   <img
-                    className="services-img"
-                    src="https://cdn-icons-png.flaticon.com/512/3166/3166647.png"
+                    className="card-image-width-50"
+                    src="https://cdn-icons-png.flaticon.com/512/2756/2756521.png"
                     alt=""
                   />
-                  <div className="d-flex-column ms-2">
-                    <h4>Humidifier</h4>
+                  <div className="d-flex-column ms-2 truncate">
+                    <h4 className="truncate">Humidifier</h4>
                     <p>View Details</p>
                   </div>
                 </div>
@@ -72,12 +72,12 @@ function ProdutsAndServices() {
               <div className="card-body">
                 <div className="d-flex">
                   <img
-                    className="services-img"
-                    src="https://www.sanjuanco.com/ImageRepository/Document?documentID=18674"
+                    className="card-image-width-50"
+                    src="https://cdn-icons-png.flaticon.com/512/3105/3105807.png"
                     alt=""
                   />
-                  <div className="d-flex-column ms-2">
-                    <h4>Water Softener</h4>
+                  <div className="d-flex-column truncate ms-2">
+                    <h4 className="truncate">Water Softener</h4>
                     <p> View Details</p>
                   </div>
                 </div>
@@ -91,7 +91,7 @@ function ProdutsAndServices() {
 
       <style jsx>{`
      
-        .services-bg {
+        .section-bg-faint {
           /* background-color: #F5F2F2; */
           background-color: white;
         }
@@ -102,7 +102,7 @@ function ProdutsAndServices() {
           line-height: 38px;
         }
 
-        .services-img {
+        .card-image-width-50 {
           max-width: 50px;
           max-height: 50px;
         }
