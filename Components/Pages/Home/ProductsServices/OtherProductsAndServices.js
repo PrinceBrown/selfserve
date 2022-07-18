@@ -1,8 +1,8 @@
 function OtherProductsAndServices() {
   return (
     <section className="other-services pb-5 section-bg-faint">
-      <div className="container ">
-        <h2>Other Products and Services</h2>
+      <div className="container py-5">
+        <h2>Other Products and Services Available</h2>
         <p>
           Find out more about additional products and services you qualify for
         </p>
