@@ -10,13 +10,7 @@ function HeroLayout() {
     <WebHero />
     <MobileHero />
 
-      <style jsx>{`
-
-
-
- 
-       
-      `}</style>
+     
     </>
   );
 }

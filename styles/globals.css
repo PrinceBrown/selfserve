@@ -73,6 +73,7 @@ a {
   min-height: 600px;
 }
 
+
 .web-hero::before {
   content: "";
   position: absolute;
@@ -115,9 +116,13 @@ a {
   line-height: 22px;
 }
 
-/*         
-                // ------- */
 
+
+
+
+
+
+/* Cell Phones */
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .web-hero {
@@ -128,8 +133,15 @@ a {
     min-height: 90vh;
   }
 }
+/* end Of Cell Phone Media Query */
 
-/* // ----- */
+
+
+
+
+
+
+
 
 /* //For Tablets */
 @media screen and (min-width: 600px) {
@@ -145,19 +157,19 @@ a {
     display: none;
   }
 }
-@media screen and (min-width: 768px) {
-  /* .web-hero {
-    min-height: 70vh;
-  } */
 
-  .web-hero-content {
-    top: 10rem;
-  }
+ 
+/* End Of Tablet Media queries */
 
-  .mobile-hero {
-    display: none;
-  }
-}
+ 
+
+
+
+
+
+
+
+
 
 /* //For Tablets, laptops & Small Screens  */
 /* // @ - show 100% hero height if screen is smaller than 1024 px */
@@ -170,10 +182,17 @@ a {
     top: 10rem;
   }
 
-  .mobile-hero {
-    display: none;
-  }
 }
+
+
+
+
+
+
+
+
+
+
 
 /* // Very large screens */
 @media screen and (min-width: 1400px) {

@@ -8,8 +8,8 @@ function WebHero() {
         <div className=" web-hero-content   ">
           <div className="container">
             <div className="row">
-              <div className="col-md-7 col-lg-6 me-auto my-auto">
-                <div className="text-white bg-dark-50 rounded shadow">
+              <div className="col-md-8 col-lg-7  me-auto my-auto">
+                <div className="text-white bg-dark-50 p-3 rounded shadow">
                   <div className="p-2">
                     {/* Line Above */}
                     {/* <div className="mb-4 hero-title-line"></div>
