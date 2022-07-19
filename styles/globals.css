@@ -1,6 +1,26 @@
 @font-face {
   font-family: enercareFont;
   src: url(../public/fonts/PostGrotesk-Book.ttf);
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: enercareFont;
+  src: url(../public/fonts/PostGrotesk-BookItalic.ttf);
+  font-style: italic;
+  font-weight: 400;
+}
+@font-face {
+  font-family: enercareFont;
+  src: url(../public/fonts/PostGrotesk-Bold.ttf);
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: enercareFont;
+  src: url(../public/fonts/PostGrotesk-BoldItalic.ttf);
+  font-style: italic;
+  font-weight: 700;
 }
 
 html,
@@ -62,6 +82,9 @@ a {
 
 .mt-n20{
   margin-top: -20px;;
+}
+.mt-n10{
+  margin-top: -10px;;
 }
 
 .truncate {
@@ -137,9 +160,9 @@ a {
     display: none;
   }
 
-  .mobile-hero {
+  /* .mobile-hero { */
     /* min-height: 90vh; */
-  }
+  /* } */
 }
 /* end Of Cell Phone Media Query */
 

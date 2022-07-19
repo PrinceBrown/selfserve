@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { MdChevronRight } from "react-icons/md";
 
 function ProdutsAndServices() {
   return (
@@ -19,10 +20,12 @@ function ProdutsAndServices() {
                         className="card-image-width-50"
                         src="https://cdn-icons-png.flaticon.com/512/7543/7543514.png"
                         alt=""
-                      />
-                      <div className="d-flex-column truncate ms-2">
-                        <h4 className="truncate">Furnace</h4>
-                        <p>View Details</p>
+                      /> 
+                      <div className="d-flex-column truncate ms-3">
+                        <h4 className="truncate pt-2">
+                          <b>Furnace</b>
+                        </h4>
+                        <p className="mt-n10"> <MdChevronRight /> View Details</p>
                       </div>
                     </div>
                   </div>
@@ -42,9 +45,11 @@ function ProdutsAndServices() {
                     src="https://cdn-icons.flaticon.com/png/512/3653/premium/3653384.png?token=exp=1657646013~hmac=a6f5851e94209491a3ff2d5a498e61d7"
                     alt=""
                   />
-                  <div className="d-flex-column truncate ms-2">
-                    <h4 className="truncate">Air Conditioning</h4>
-                    <p> View Details</p>
+                  <div className="d-flex-column truncate ms-3">
+                    <h4 className="truncate">
+                      <b>Air Conditioning</b>
+                    </h4>
+                     <p className="mt-n10"> <MdChevronRight /> View Details</p>
                   </div>
                 </div>
               </div>
@@ -59,9 +64,11 @@ function ProdutsAndServices() {
                     src="https://cdn-icons-png.flaticon.com/512/2756/2756521.png"
                     alt=""
                   />
-                  <div className="d-flex-column ms-2 truncate">
-                    <h4 className="truncate">Humidifier</h4>
-                    <p>View Details</p>
+                  <div className="d-flex-column ms-3 truncate">
+                    <h4 className="truncate">
+                      <b>Humidifier</b>
+                    </h4>
+                    <p className="mt-n10"><MdChevronRight /> View Details</p>
                   </div>
                 </div>
               </div>
@@ -76,9 +83,11 @@ function ProdutsAndServices() {
                     src="https://cdn-icons-png.flaticon.com/512/3105/3105807.png"
                     alt=""
                   />
-                  <div className="d-flex-column truncate ms-2">
-                    <h4 className="truncate">Water Softener</h4>
-                    <p> View Details</p>
+                  <div className="d-flex-column truncate ms-3">
+                    <h4 className="truncate">
+                      <b>Water Softener</b>
+                    </h4>
+                     <p className="mt-n10"><MdChevronRight /> View Details</p>
                   </div>
                 </div>
               </div>

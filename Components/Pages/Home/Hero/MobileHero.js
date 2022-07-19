@@ -20,9 +20,11 @@ function MobileHero() {
                     <p>Whether you need emergency HVAC repairs or are looking to replace old equipment, call on the experts at Enercare.</p>
 
                     <div className="text-center mb-4">
-                        <button className="btn btn-primary btn-lg rounded-button ">
+                        <Link href={"/schedule-appt/select-a-product"}>
+                        <a className="btn btn-primary btn-lg rounded-button shadow">
                             <b className="mobile-hero-cta-btn" >Schedule an Appointment</b>
-                        </button>
+                        </a>
+                        </Link>
                     </div>
                 </div>
             </div>

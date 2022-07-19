@@ -23,8 +23,10 @@ function MyProperties() {
                                                 />
                                             </div>
                                             <div className="truncate  ms-3">
-                                                <h5 className="truncate">123 Young St.</h5>
-                                                <p>
+                                                <h5 className="truncate pt-2">
+                                                    <b>123 Young St.</b>
+                                                </h5>
+                                                <p className="mt-n10">
                                                     <MdChevronRight /> View Details
                                                 </p>
                                             </div>
@@ -44,9 +46,11 @@ function MyProperties() {
                                         src="/images/icons/home.png"
                                         alt=""
                                     />
-                                    <div className="truncate  ms-2">
-                                        <h5 className="truncate">456789 Westwood Ln.</h5>
-                                        <p>
+                                    <div className="truncate  ms-3">
+                                        <h5 className="truncate pt-2">
+                                            <b>456789 Westwood Ln.</b>
+                                        </h5>
+                                        <p className="mt-n10">
                                             <MdChevronRight /> View Details
                                         </p>
                                     </div>
@@ -64,9 +68,11 @@ function MyProperties() {
                                         src="/images/icons/home.png"
                                         alt=""
                                     />
-                                    <div className="truncate ms-2">
-                                        <h5 className="truncate">926 Berverly Hills Park</h5>
-                                        <p>
+                                    <div className="truncate ms-3">
+                                        <h5 className="truncate pt-2">
+                                            <b>926 Berverly Hills Park</b>
+                                        </h5>
+                                        <p className="mt-n10">
                                             <MdChevronRight /> View Details
                                         </p>
                                     </div>
@@ -84,9 +90,11 @@ function MyProperties() {
                                         src="/images/icons/home.png"
                                         alt=""
                                     />
-                                    <div className="truncate ms-2">
-                                        <h5 className="truncate">7400 Birchmount Road</h5>
-                                        <p>
+                                    <div className="truncate ms-3">
+                                        <h5 className="truncate pt-2">
+                                            <b>7400 Birchmount Road</b>
+                                        </h5>
+                                        <p className="mt-n10">
                                             <MdChevronRight /> View Details
                                         </p>
                                     </div>

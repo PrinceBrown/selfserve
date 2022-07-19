@@ -2,7 +2,9 @@ function OtherProductsAndServices() {
   return (
     <section className="other-services pb-5 section-bg-faint">
       <div className="container py-5">
-        <h2>Other Products and Services Available</h2>
+        <h2>
+          <b>Other Products and Services Available</b>
+        </h2>
         <p>
           Find out more about additional products and services you qualify for
         </p>
@@ -16,8 +18,7 @@ function OtherProductsAndServices() {
         }
 
         .other-services-title {
-          font-weight: 700;
-          font-size: 30px;
+ 
           line-height: 38px;
           color: #29292c;
         }
