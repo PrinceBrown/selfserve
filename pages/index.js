@@ -5,10 +5,43 @@ import ProdutsAndServices from "../Components/Pages/Home/ProductsServices/Produt
 import MyProperties from "../Components/Pages/Home/Properties/MyProperties";
 
 
-export default function Home() {
+
+
+import { createClient } from 'contentful'
+
+
+export async function getStaticProps() {
+
+  const client = createClient({
+    space: process.env.CONTENTFUL_SPACE_ID,
+    accessToken: process.env.CONTENTFUL_ACCESS_KEY,
+  })
+
+  // Get Items From Contentful Space
+  const res = await client.getEntries({ content_type: 'offerHvac' })
+
+  // console.log(res.items)
+
+  return {
+    props: {
+      offers: res.items
+    }
+  }
+
+}
+
+
+export default function Home({offers}) {
+
+
+  console.log("My Offers", offers)
+
+
+
   return (
 
     <Layout title="Home Page">
+
       <HeroLayout />
       <MyProperties />
       <ProdutsAndServices />

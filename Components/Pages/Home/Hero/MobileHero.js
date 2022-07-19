@@ -2,7 +2,7 @@ import Link from "next/link";
 import { AiOutlineSchedule } from "react-icons/ai";
 import Image from "next/image";
 
-function MobileHero() {
+function MobileHero({ webHeroOfferCtntTitle, webHeroOfferContentMsg }) {
     return (
         <section className="mobile-hero">
 
@@ -12,12 +12,12 @@ function MobileHero() {
             <div className="bg-black">
                 <div className="text-white p-2">
                     <h1 className=" mobile-hero-card-title">
-                        Healthy Furnace.
+                        {webHeroOfferCtntTitle}
                     </h1>
-                    <h1 className=" mobile-hero-card-title mt-n20">
+                    {/* <h1 className=" mobile-hero-card-title mt-n20">
                         <strong>Healthy Home.</strong>
-                    </h1>
-                    <p>Whether you need emergency HVAC repairs or are looking to replace old equipment, call on the experts at Enercare.</p>
+                    </h1> */}
+                    <p>{webHeroOfferContentMsg}</p>
 
                     <div className="text-center mb-4">
                         <Link href={"/schedule-appt/select-a-product"}>
@@ -35,6 +35,7 @@ function MobileHero() {
         .mobile-hero-card-title{
             font-size: 2.8rem;
             font-weight: bolder;
+            line-height: 38px;
         };
        
         `}</style>

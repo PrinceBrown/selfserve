@@ -1,9 +1,42 @@
 import Layout from "../../Components/Layout/Layout"
 import FAQList from "../../Components/Pages/FAQ/FAQList"
+import { createClient } from 'contentful'
+
+
+export async function getStaticProps() {
+
+    const client = createClient({
+        space: process.env.CONTENTFUL_SPACE_ID,
+        accessToken: process.env.CONTENTFUL_ACCESS_KEY,
+    })
+
+    // Get Items From Contentful Space
+    const res = await client.getEntries({ content_type: '6lrMRhvIg8EgCyMWiY4EsE' })
+
+    // console.log(res.items)
+
+    return {
+        props: {
+            FAQS: res.items
+        }
+    }
+
+}
 
 
 
-function enercareFAQ() {
+
+
+
+
+
+
+
+
+
+function enercareFAQ({FAQS}) {
+
+    console.log(FAQS)
 
 
     let titles = ['Why is my product not listed or incorrect?', 
