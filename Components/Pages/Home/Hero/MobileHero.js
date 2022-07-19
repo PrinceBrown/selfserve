@@ -1,17 +1,44 @@
 import Link from "next/link";
 import { AiOutlineSchedule } from "react-icons/ai";
+import Image from "next/image";
 
 function MobileHero() {
-  return (
-    <section className="mobile-hero">
-  
+    return (
+        <section className="mobile-hero">
 
-  <div className="container">
-    <h1>This is a test</h1>
-  </div>
-  
-    </section>
-  );
+
+            <img width='100%' src={`/images/hero/bg-1.jpeg`} />
+
+            <div className="bg-black">
+                <div className="text-white p-2">
+                    <h1 className=" mobile-hero-card-title">
+                        Healthy Furnace.
+                    </h1>
+                    <h1 className=" mobile-hero-card-title mt-n20">
+                        <strong>Healthy Home.</strong>
+                    </h1>
+                    <p>Whether you need emergency HVAC repairs or are looking to replace old equipment, call on the experts at Enercare.</p>
+
+                    <div className="text-center mb-4">
+                        <button className="btn btn-primary btn-lg rounded-button ">
+                            <b className="mobile-hero-cta-btn" >Schedule an Appointment</b>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <style jsx>{`
+        .mobile-hero-card-title{
+            font-size: 3rem;
+            font-weight: bolder;
+        };
+       
+        `}</style>
+
+        </section>
+    );
 }
 
 export default MobileHero;

@@ -10,7 +10,7 @@ export default function Home() {
 
     <Layout title="Home Page">
       <HeroLayout />
-      <MyProperties />
+      {/* <MyProperties /> */}
       <ProdutsAndServices />
       <OtherProductsAndServices />
 

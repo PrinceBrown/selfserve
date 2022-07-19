@@ -60,6 +60,10 @@ a {
   background: #000000ab;
 }
 
+.mt-n20{
+  margin-top: -20px;;
+}
+
 .truncate {
   width: 100%;
   white-space: nowrap;
@@ -71,6 +75,10 @@ a {
   position: relative;
   min-width: 100vw;
   min-height: 600px;
+}
+.mobile-hero {
+  position: relative;
+  min-width: 100vw;
 }
 
 
@@ -130,7 +138,7 @@ a {
   }
 
   .mobile-hero {
-    min-height: 90vh;
+    /* min-height: 90vh; */
   }
 }
 /* end Of Cell Phone Media Query */
